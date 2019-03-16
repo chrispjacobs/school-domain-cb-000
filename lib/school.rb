@@ -9,10 +9,10 @@ class School
   def add_student(name, grade)
     if @roster[grade] != nil
        @roster[grade] << name
-       @roster[grade].sort_by {|word| word.downcase}
     else
       @roster[grade] = [name]
     end
+    @roster[grade].sort_by {|word| word.downcase}
   end
   def roster
     @roster
