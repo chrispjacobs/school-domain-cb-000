@@ -16,6 +16,9 @@ class School
   def roster
     @roster
   end
+  def grade(number)
+    grade[number]
+  end
 end
 
 wellington = School.new("Wellington High School")
