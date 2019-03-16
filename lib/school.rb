@@ -20,8 +20,8 @@ class School
     @roster[grade_input]
   end
   def sort
-    @roster = @roster.each do |grade|
-      grade.sort
+    @roster.each do |grade, array|
+      array = array.sort
     end
     @roster
   end
