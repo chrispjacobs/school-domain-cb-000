@@ -16,8 +16,8 @@ class School
   def roster
     @roster
   end
-  def grade(number)
-    grade[number]
+  def grade(grade_input)
+    @roster[grade_input]
   end
 end
 
