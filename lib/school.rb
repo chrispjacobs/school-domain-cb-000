@@ -21,4 +21,6 @@ end
 wellington = School.new("Wellington High School")
 puts wellington.name
 wellington.add_student("Chris Jacobs", 11)
+wellington.add_student("Adam Cohen", 11)
+wellington.add_student("Lisa Smith", 10)
 puts wellington.roster
